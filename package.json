@@ -1,0 +1,25 @@
+{
+  "name": "jg-auth",
+  "version": "1.0.0",
+  "description": "jgame auth server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "watch": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@fastify/jwt": "^6.1.0",
+    "@fastify/redis": "^6.0.0",
+    "dotenv": "^16.0.1",
+    "fastify": "^4.0.3",
+    "jgame-core": "^1.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.0",
+    "svg-captcha": "^1.4.0"
+  }
+}

@@ -1,0 +1,12 @@
+SERVER_PORT = 9091
+SESSION_SECRET = 's@Dxf#1FVc4'
+SESSION_HOURS = 24
+PASSWORD_SALT = 'ddeEdfCasFw'
+GAMEPLAY_SALT = 'gDWdfLa1'
+AMQP_URL = 'amqp://guest:guest@localhost:5672'
+SQL_HOST = 'localhost'
+SQL_USER = 'root'
+SQL_PASS = 'dwo0$f2Sf'
+SQL_BASE = 'project_auth'
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
